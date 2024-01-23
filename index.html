@@ -10,13 +10,35 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-    *{
-        font-family: 'Manrope', sans-serif;
-    }
-</style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Manrope', sans-serif;
+        }
+        .background-one{
+            background-image: url('./Images/2.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 6px;
+            background-size: cover;
+        }
+        .background-two{
+            background-image: url('./Images/3.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 6px;
+            background-size: cover;
+        }
+        .background-three{
+            background-image: url('./Images/4.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 6px;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -73,39 +95,41 @@
         <section class="lg:w-[1180px] mx-auto my-10 px-4">
             <div class="carousel h-[450px] relative">
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="./Images/1.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="./Images/1.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="./Images/1.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a> 
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img src="./Images/1.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a> 
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
-              </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
 
-              <div class="w-[450px] mx-auto lg:w-[500px] text-left bg-[#131318] rounded-2xl text-white px-6 py-8 static lg:absolute lg:top-96 lg:left-96 lg:-right-40">
+            <div
+                class="w-[450px] mx-auto lg:w-[500px] text-left bg-[#131318] rounded-2xl text-white px-6 py-8 static lg:absolute lg:top-96 lg:left-96 lg:-right-40">
                 <h1 class="text-xl font-extrabold">Meet all the heroes from the field</h1>
-                <p class="text-[#FFFFFF9A] text-xs font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-              </div>
+                <p class="text-[#FFFFFF9A] text-xs font-normal">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
         </section>
     </header>
     <main>
@@ -113,28 +137,65 @@
         <section class="lg:w-[1170px] mx-auto my-10">
             <div>
                 <h1 class="text-2xl lg:text-4xl font-extrabold text-center">Professional Hockeys Club</h1>
-                <p class="w-[360px] lg:w-[700px] text-center mx-auto mt-6 text-[#DD12129A]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="w-[360px] lg:w-[700px] text-center mx-auto mt-6 text-[#DD12129A]">Dit amet consectetur.
+                    Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 <div class="grid grid-cols-1 gap-5 lg:grid-cols-4 mt-12">
                     <div class="text-center px-11">
-                        <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black font-extrabold">87%</span></div>
+                        <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span
+                                class="text-black font-extrabold">87%</span></div>
                         <h1 class="text-xl font-semibold mt-3 mb-3">Prayer Facility</h1>
-                        <p class="text-sm font-normal text-[#DD12129A]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p class="text-sm font-normal text-[#DD12129A]">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
                     </div>
                     <div class="text-center px-11">
-                        <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-black font-extrabold">95%</span></div>
+                        <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span
+                                class="text-black font-extrabold">95%</span></div>
                         <h1 class="text-xl font-semibold mt-3 mb-3">Experienced Coach</h1>
-                        <p class="text-sm font-normal text-[#DD12129A]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p class="text-sm font-normal text-[#DD12129A]">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
                     </div>
                     <div class="text-center px-11">
-                        <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span class="text-black font-extrabold">90%</span></div>
+                        <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span
+                                class="text-black font-extrabold">90%</span></div>
                         <h1 class="text-xl font-semibold mt-3 mb-3">Senior Player</h1>
-                        <p class="text-sm font-normal text-[#DD12129A]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p class="text-sm font-normal text-[#DD12129A]">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
                     </div>
                     <div class="text-center px-11">
-                        <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-black font-extrabold">80%</span></div>
+                        <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span
+                                class="text-black font-extrabold">80%</span></div>
                         <h1 class="text-xl font-semibold mt-3 mb-3">Training Ground</h1>
-                        <p class="text-sm font-normal text-[#DD12129A]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p class="text-sm font-normal text-[#DD12129A]">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Program Sections section -->
+        <section class="my-20">
+            <h1 class="text-4xl font-extrabold text-center">Program Sections</h1>
+            <p class="text-xs font-medium text-[#1d131299] lg:w-[600px] mx-auto text-center mt-6 mb-6 px-12">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:w-[1170px] mx-auto text-white">
+                <div class="w-[373px] h-[250px] lg:w-full mx-auto background-one px-6 py-4 flex flex-col justify-center">
+                    <h1 class="text-xl font-extrabold lg:mt-14">Junior Program</h1>
+                    <p class="text-sm font-medium mt-3 mb-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                        <button class="text-xl font-bold rounded-lg border-2 border-[#FF4240] bg-[#FF4240] text-white px-4 py-2 w-48">Register Now!</button>
+                </div>
+                <div class="w-[373px] h-[250px] lg:w-full mx-auto background-two px-6 py-4 flex flex-col justify-center">
+                    <h1 class="text-xl font-extrabold lg:mt-14">Teenager Program</h1>
+                    <p class="text-sm font-medium mt-3 mb-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                        <button class="text-xl font-bold rounded-lg border-2 border-[#FF4240] bg-[#FF4240] text-white px-4 py-2 w-48">Register Now!</button>
+                </div>
+                <div class="w-[373px] h-[250px] lg:h-[380px] lg:w-[1170px] mx-auto background-three px-6 py-4 flex flex-col justify-center">
+                    <h1 class="text-xl font-extrabold lg:mt-32">Professional Program</h1>
+                    <p class="text-sm font-medium mt-3 mb-3 lg:w-[40%]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                        <button class="text-xl font-bold rounded-lg border-2 border-[#FF4240] bg-[#FF4240] text-white px-4 py-2 w-48">Register Now!</button>
                 </div>
             </div>
         </section>
